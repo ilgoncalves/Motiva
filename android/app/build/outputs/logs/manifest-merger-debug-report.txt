@@ -1,0 +1,505 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.9.aar/fa91605bf26c17376ec15935d8ef821e/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-image-picker] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
+MERGED from [:react-native-gesture-handler] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-firebase] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:react-native-vector-icons] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.59.4] /Users/victor/.gradle/caches/transforms-1/files-1.1/react-native-0.59.4.aar/19c156db8d2e9da54a38572d7d8302c1/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/5d8181d0f36c5ba7364257ce22d4179f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.5.0.aar/c2fc47820c1ec634ab022f9a4bdac0e5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.5.0.aar/d9146e46243239869e482c5ba920b08e/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-16.5.0.aar/eee999caf8c525d8386a253781509d2c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-16.5.0.aar/51fe4c76edbf762cff42f19f108b1f21/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-16.5.0.aar/f9277c92d26562d3838e0deae8d9c3b5/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.5.0.aar/8d51da1904c1c5087b928886edf33a0a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/4ae1e49e0000cc269f247739eed1eb85/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/17ebc378aeafb98c6399e9dd90fde25d/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/2d74bdd372b3df9212e5d31c41d9f0b4/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/7c42b0afa374567c82659dfa02efd10b/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/c15b5e70b6f50e23673bc2191d020f11/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/98b7c3d22e6f3cf0f83f1987b79c52c7/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/977d7dc9f41d7afcbc7262d12f002b23/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.2.0.aar/bb0a6ad10e51c49e5d01594380dc7103/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/fe8b69d737ba6808d679a43fdf5bc619/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/57b73c2633f94deb4193ed950cd8f7d4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/a37f7a99c24a555961b3778d8d6a8e80/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/8018ac1532694972d4577700dfa2dd83/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/26a200e0a39f8b6ad7f940460b839c8a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/793282f6b0158581f7b38d6892ad69bf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/2b720580b15325b97a5150aee78948df/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/86470a0a84e9581eb7d08b3c95f2dc05/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/b9132b659277ad7b2324acdc7912dbed/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/2b2ea1efcc52a5b2c447859fd659460f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/f6e4b80e20f8abea43496778f67cb26f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/4e7b21751d46b1eb7adad2077fecfc1a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/88b575db68e520636ebbb31ad7d25c5e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/c9bfb7216e82dd8e482e377a43d3ae7f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/e806035d7720465fcd2fe05dabe2f9cb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/5355feac7132a624d978934d9f7268b6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/cceaf93740e1cfbbbcd215c8f64025f3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/85b03babf6faf578a5011a2b72cec7d9/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/6739da88bb771d9212b23f8a376a1ca5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/12f7eb9b87568ece957692d9ec760abe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/3002361027e817d5f284f38df1f74809/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/0880ac2b37602eadbcf9ca9dddd3db28/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e7256aee29b56bb32ae9ac4ee679d8dc/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/ebf4f84101a3f7d8c83fa040614471e5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ebe046f57258b0ce47e068c5530a58eb/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/04197b5665f12ee86fe0bebf3b30d36b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/9f7aa075b8dfb5066543641e5c3c262e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9443834009bf7b8e7ae490af8eeeb779/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/814d0ac8a2eef08f23a99c45c9f2b1ca/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/16882d949d8c7952efee26221011f6bb/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/a6271b49de3770866df6b0ecc95b6045/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/c4508bf8ea26a3a1516a6fcb42630dc8/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/4f79dcfe2cead47c7201c3dafb90331b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/85fe80436fc4c75119ca9cdefca2c703/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/35691a2c772507eca7ead7e5c7995f2b/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:2:3-26
+		INJECTED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:2:3-26
+		INJECTED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:react-native-firebase] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-67
+MERGED from [:react-native-firebase] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.5.0.aar/d9146e46243239869e482c5ba920b08e/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.5.0.aar/d9146e46243239869e482c5ba920b08e/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-16.5.0.aar/51fe4c76edbf762cff42f19f108b1f21/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-16.5.0.aar/51fe4c76edbf762cff42f19f108b1f21/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-16.5.0.aar/f9277c92d26562d3838e0deae8d9c3b5/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-16.5.0.aar/f9277c92d26562d3838e0deae8d9c3b5/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.9.aar/fa91605bf26c17376ec15935d8ef821e/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.9.aar/fa91605bf26c17376ec15935d8ef821e/AndroidManifest.xml:7:5-20
+MERGED from [:react-native-image-picker] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-image-picker] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-21:19
+MERGED from [com.facebook.react:react-native:0.59.4] /Users/victor/.gradle/caches/transforms-1/files-1.1/react-native-0.59.4.aar/19c156db8d2e9da54a38572d7d8302c1/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.59.4] /Users/victor/.gradle/caches/transforms-1/files-1.1/react-native-0.59.4.aar/19c156db8d2e9da54a38572d7d8302c1/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.5.0.aar/c2fc47820c1ec634ab022f9a4bdac0e5/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.5.0.aar/c2fc47820c1ec634ab022f9a4bdac0e5/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.5.0.aar/d9146e46243239869e482c5ba920b08e/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.5.0.aar/d9146e46243239869e482c5ba920b08e/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-16.5.0.aar/eee999caf8c525d8386a253781509d2c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-16.5.0.aar/eee999caf8c525d8386a253781509d2c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-16.5.0.aar/51fe4c76edbf762cff42f19f108b1f21/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-16.5.0.aar/51fe4c76edbf762cff42f19f108b1f21/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-16.5.0.aar/f9277c92d26562d3838e0deae8d9c3b5/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-16.5.0.aar/f9277c92d26562d3838e0deae8d9c3b5/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.5.0.aar/8d51da1904c1c5087b928886edf33a0a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.5.0.aar/8d51da1904c1c5087b928886edf33a0a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/4ae1e49e0000cc269f247739eed1eb85/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/4ae1e49e0000cc269f247739eed1eb85/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/17ebc378aeafb98c6399e9dd90fde25d/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/17ebc378aeafb98c6399e9dd90fde25d/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/2d74bdd372b3df9212e5d31c41d9f0b4/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/2d74bdd372b3df9212e5d31c41d9f0b4/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/7c42b0afa374567c82659dfa02efd10b/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/7c42b0afa374567c82659dfa02efd10b/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/c15b5e70b6f50e23673bc2191d020f11/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/c15b5e70b6f50e23673bc2191d020f11/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/98b7c3d22e6f3cf0f83f1987b79c52c7/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/98b7c3d22e6f3cf0f83f1987b79c52c7/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/977d7dc9f41d7afcbc7262d12f002b23/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/977d7dc9f41d7afcbc7262d12f002b23/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.2.0.aar/bb0a6ad10e51c49e5d01594380dc7103/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.2.0.aar/bb0a6ad10e51c49e5d01594380dc7103/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/cceaf93740e1cfbbbcd215c8f64025f3/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/cceaf93740e1cfbbbcd215c8f64025f3/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/85b03babf6faf578a5011a2b72cec7d9/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/85b03babf6faf578a5011a2b72cec7d9/AndroidManifest.xml:22:5-23:19
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/85fe80436fc4c75119ca9cdefca2c703/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/85fe80436fc4c75119ca9cdefca2c703/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/cceaf93740e1cfbbbcd215c8f64025f3/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:8:7-39
+	tools:ignore
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/debug/AndroidManifest.xml:7:75-114
+	android:roundIcon
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:10:7-52
+	tools:targetApi
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/debug/AndroidManifest.xml:7:54-74
+	android:icon
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:9:7-41
+	android:allowBackup
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:usesCleartextTraffic
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/debug/AndroidManifest.xml:7:18-53
+	android:name
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:7:7-38
+activity#com.hackathon.MainActivity
+ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.9.aar/fa91605bf26c17376ec15935d8ef821e/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.9.aar/fa91605bf26c17376ec15935d8ef821e/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-image-picker] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-firebase] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-vector-icons] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.4] /Users/victor/.gradle/caches/transforms-1/files-1.1/react-native-0.59.4.aar/19c156db8d2e9da54a38572d7d8302c1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.4] /Users/victor/.gradle/caches/transforms-1/files-1.1/react-native-0.59.4.aar/19c156db8d2e9da54a38572d7d8302c1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/5d8181d0f36c5ba7364257ce22d4179f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/5d8181d0f36c5ba7364257ce22d4179f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.5.0.aar/c2fc47820c1ec634ab022f9a4bdac0e5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.5.0.aar/c2fc47820c1ec634ab022f9a4bdac0e5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.5.0.aar/d9146e46243239869e482c5ba920b08e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.5.0.aar/d9146e46243239869e482c5ba920b08e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-16.5.0.aar/eee999caf8c525d8386a253781509d2c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-16.5.0.aar/eee999caf8c525d8386a253781509d2c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-16.5.0.aar/51fe4c76edbf762cff42f19f108b1f21/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-16.5.0.aar/51fe4c76edbf762cff42f19f108b1f21/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-16.5.0.aar/f9277c92d26562d3838e0deae8d9c3b5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-16.5.0.aar/f9277c92d26562d3838e0deae8d9c3b5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.5.0.aar/8d51da1904c1c5087b928886edf33a0a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.5.0.aar/8d51da1904c1c5087b928886edf33a0a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/4ae1e49e0000cc269f247739eed1eb85/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/4ae1e49e0000cc269f247739eed1eb85/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/17ebc378aeafb98c6399e9dd90fde25d/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:16.1.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/17ebc378aeafb98c6399e9dd90fde25d/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/2d74bdd372b3df9212e5d31c41d9f0b4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/2d74bdd372b3df9212e5d31c41d9f0b4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/7c42b0afa374567c82659dfa02efd10b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/7c42b0afa374567c82659dfa02efd10b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/c15b5e70b6f50e23673bc2191d020f11/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/c15b5e70b6f50e23673bc2191d020f11/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/98b7c3d22e6f3cf0f83f1987b79c52c7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/98b7c3d22e6f3cf0f83f1987b79c52c7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/977d7dc9f41d7afcbc7262d12f002b23/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/977d7dc9f41d7afcbc7262d12f002b23/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.2.0.aar/bb0a6ad10e51c49e5d01594380dc7103/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.2.0.aar/bb0a6ad10e51c49e5d01594380dc7103/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/fe8b69d737ba6808d679a43fdf5bc619/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/fe8b69d737ba6808d679a43fdf5bc619/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:multidex:1.0.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/57b73c2633f94deb4193ed950cd8f7d4/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/57b73c2633f94deb4193ed950cd8f7d4/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/a37f7a99c24a555961b3778d8d6a8e80/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/a37f7a99c24a555961b3778d8d6a8e80/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/8018ac1532694972d4577700dfa2dd83/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/8018ac1532694972d4577700dfa2dd83/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/26a200e0a39f8b6ad7f940460b839c8a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/26a200e0a39f8b6ad7f940460b839c8a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/793282f6b0158581f7b38d6892ad69bf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/793282f6b0158581f7b38d6892ad69bf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/2b720580b15325b97a5150aee78948df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/2b720580b15325b97a5150aee78948df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/86470a0a84e9581eb7d08b3c95f2dc05/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/86470a0a84e9581eb7d08b3c95f2dc05/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/b9132b659277ad7b2324acdc7912dbed/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/b9132b659277ad7b2324acdc7912dbed/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/2b2ea1efcc52a5b2c447859fd659460f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/2b2ea1efcc52a5b2c447859fd659460f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/f6e4b80e20f8abea43496778f67cb26f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/f6e4b80e20f8abea43496778f67cb26f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/4e7b21751d46b1eb7adad2077fecfc1a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/4e7b21751d46b1eb7adad2077fecfc1a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/88b575db68e520636ebbb31ad7d25c5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/88b575db68e520636ebbb31ad7d25c5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/c9bfb7216e82dd8e482e377a43d3ae7f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/c9bfb7216e82dd8e482e377a43d3ae7f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/e806035d7720465fcd2fe05dabe2f9cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/e806035d7720465fcd2fe05dabe2f9cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/5355feac7132a624d978934d9f7268b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/5355feac7132a624d978934d9f7268b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/cceaf93740e1cfbbbcd215c8f64025f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/cceaf93740e1cfbbbcd215c8f64025f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/85b03babf6faf578a5011a2b72cec7d9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/85b03babf6faf578a5011a2b72cec7d9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/6739da88bb771d9212b23f8a376a1ca5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/6739da88bb771d9212b23f8a376a1ca5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/12f7eb9b87568ece957692d9ec760abe/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/12f7eb9b87568ece957692d9ec760abe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/3002361027e817d5f284f38df1f74809/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/3002361027e817d5f284f38df1f74809/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/0880ac2b37602eadbcf9ca9dddd3db28/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/0880ac2b37602eadbcf9ca9dddd3db28/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e7256aee29b56bb32ae9ac4ee679d8dc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e7256aee29b56bb32ae9ac4ee679d8dc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/ebf4f84101a3f7d8c83fa040614471e5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/ebf4f84101a3f7d8c83fa040614471e5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ebe046f57258b0ce47e068c5530a58eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/ebe046f57258b0ce47e068c5530a58eb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/04197b5665f12ee86fe0bebf3b30d36b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/04197b5665f12ee86fe0bebf3b30d36b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/9f7aa075b8dfb5066543641e5c3c262e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/9f7aa075b8dfb5066543641e5c3c262e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9443834009bf7b8e7ae490af8eeeb779/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/9443834009bf7b8e7ae490af8eeeb779/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/814d0ac8a2eef08f23a99c45c9f2b1ca/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/814d0ac8a2eef08f23a99c45c9f2b1ca/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/16882d949d8c7952efee26221011f6bb/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/16882d949d8c7952efee26221011f6bb/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/a6271b49de3770866df6b0ecc95b6045/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/a6271b49de3770866df6b0ecc95b6045/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/c4508bf8ea26a3a1516a6fcb42630dc8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/c4508bf8ea26a3a1516a6fcb42630dc8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/4f79dcfe2cead47c7201c3dafb90331b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/4f79dcfe2cead47c7201c3dafb90331b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/85fe80436fc4c75119ca9cdefca2c703/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/85fe80436fc4c75119ca9cdefca2c703/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/35691a2c772507eca7ead7e5c7995f2b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/35691a2c772507eca7ead7e5c7995f2b/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/victor/Desktop/Hackathon/HackathonFeira/android/app/src/debug/AndroidManifest.xml:5:22-75
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:58
+	android:resource
+		ADDED from [:react-native-image-picker] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-55
+	android:name
+		ADDED from [:react-native-image-picker] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-67
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:react-native-firebase] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.5.0.aar/d9146e46243239869e482c5ba920b08e/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.5.0.aar/d9146e46243239869e482c5ba920b08e/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-16.5.0.aar/51fe4c76edbf762cff42f19f108b1f21/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-16.5.0.aar/51fe4c76edbf762cff42f19f108b1f21/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-16.5.0.aar/f9277c92d26562d3838e0deae8d9c3b5/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-16.5.0.aar/f9277c92d26562d3838e0deae8d9c3b5/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [:react-native-firebase] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-firebase] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.5.0.aar/d9146e46243239869e482c5ba920b08e/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.5.0.aar/d9146e46243239869e482c5ba920b08e/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-16.5.0.aar/51fe4c76edbf762cff42f19f108b1f21/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-16.5.0.aar/51fe4c76edbf762cff42f19f108b1f21/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-16.5.0.aar/f9277c92d26562d3838e0deae8d9c3b5/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-16.5.0.aar/f9277c92d26562d3838e0deae8d9c3b5/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [:react-native-firebase] /Users/victor/Desktop/Hackathon/HackathonFeira/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:22-76
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-16.5.0.aar/51fe4c76edbf762cff42f19f108b1f21/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-16.5.0.aar/51fe4c76edbf762cff42f19f108b1f21/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-16.5.0.aar/f9277c92d26562d3838e0deae8d9c3b5/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-16.5.0.aar/f9277c92d26562d3838e0deae8d9c3b5/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-16.5.0.aar/51fe4c76edbf762cff42f19f108b1f21/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-16.5.0.aar/51fe4c76edbf762cff42f19f108b1f21/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-16.5.0.aar/f9277c92d26562d3838e0deae8d9c3b5/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-16.5.0.aar/f9277c92d26562d3838e0deae8d9c3b5/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-16.5.0.aar/785d44c26c9536dc118d58d8bb05974b/AndroidManifest.xml:49:13-87
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.5.0.aar/d9146e46243239869e482c5ba920b08e/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.5.0.aar/d9146e46243239869e482c5ba920b08e/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.5.0.aar/d9146e46243239869e482c5ba920b08e/AndroidManifest.xml:28:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.5.0.aar/d9146e46243239869e482c5ba920b08e/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.5.0.aar/d9146e46243239869e482c5ba920b08e/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.5.0.aar/d9146e46243239869e482c5ba920b08e/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.2] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.1.2.aar/55a1dcbc3d2ffd96a2bcef9cf18a25e0/AndroidManifest.xml:54:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/17ebc378aeafb98c6399e9dd90fde25d/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/17ebc378aeafb98c6399e9dd90fde25d/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/17ebc378aeafb98c6399e9dd90fde25d/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/17ebc378aeafb98c6399e9dd90fde25d/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/firebase-common-16.1.0.aar/17ebc378aeafb98c6399e9dd90fde25d/AndroidManifest.xml:13:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/7c42b0afa374567c82659dfa02efd10b/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/7c42b0afa374567c82659dfa02efd10b/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/7c42b0afa374567c82659dfa02efd10b/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/7c42b0afa374567c82659dfa02efd10b/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.2.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.2.0.aar/bb0a6ad10e51c49e5d01594380dc7103/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.2.0.aar/bb0a6ad10e51c49e5d01594380dc7103/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] /Users/victor/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.2.0.aar/bb0a6ad10e51c49e5d01594380dc7103/AndroidManifest.xml:24:13-58
