@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "231070488895",
+    "firebase_url": "https://hackaton-sebrae-gitignore.firebaseio.com",
+    "project_id": "hackaton-sebrae-gitignore",
+    "storage_bucket": "hackaton-sebrae-gitignore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231070488895:android:f100daf56096dd6c",
+        "android_client_info": {
+          "package_name": "com.hackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231070488895-1kpd9pt913i7vq8r2poai88ulrkud6m0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLAX5oZ-30-QFJtn8v1078KJp4boUG2tQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231070488895-1kpd9pt913i7vq8r2poai88ulrkud6m0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "231070488895-saa8nemvf2u7p58hmn065o0e9ajdlrnh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.hackathon"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
