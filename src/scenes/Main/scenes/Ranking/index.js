@@ -34,91 +34,17 @@ class Ranking extends Component {
         super(props);
 
         this.state = {
-            items: [
-                {
-                    name: 'Marcos da silva Gonçalves',
-                    pontuation: '2500 pontos',
-                    ranking: '1',
-                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
-                },
-                {
-                    name: 'Marcos da silva Gonçalves',
-                    pontuation: '2500 pontos',
-                    ranking: '1',
-                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
-                },
-                {
-                    name: 'Marcos da silva Gonçalves',
-                    pontuation: '2500 pontos',
-                    ranking: '1',
-                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
-                },
-                {
-                    name: 'Marcos da silva Gonçalves',
-                    pontuation: '2500 pontos',
-                    ranking: '1',
-                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
-                },
-                {
-                    name: 'Marcos da silva Gonçalves',
-                    pontuation: '2500 pontos',
-                    ranking: '1',
-                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
-                },
-                {
-                    name: 'Marcos da silva Gonçalves',
-                    pontuation: '2500 pontos',
-                    ranking: '1',
-                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
-                },
-                {
-                    name: 'Marcos da silva Gonçalves',
-                    pontuation: '2500 pontos',
-                    ranking: '1',
-                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
-                },
-                {
-                    name: 'Marcos da silva Gonçalves',
-                    pontuation: '2500 pontos',
-                    ranking: '1',
-                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
-                },
-                {
-                    name: 'Marcos da silva Gonçalves',
-                    pontuation: '2500 pontos',
-                    ranking: '1',
-                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
-                },
-                {
-                    name: 'Marcos da silva Gonçalves',
-                    pontuation: '2500 pontos',
-                    ranking: '1',
-                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
-                },
-                {
-                    name: 'Marcos da silva Gonçalves',
-                    pontuation: '2500 pontos',
-                    ranking: '1',
-                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
-                },
-                {
-                    name: 'Marcos da silva Gonçalves',
-                    pontuation: '2500 pontos',
-                    ranking: '1',
-                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
-                },
-                {
-                    name: 'Marcos da silva Gonçalves',
-                    pontuation: '2500 pontos',
-                    ranking: '1',
-                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
-                },
-
-            ]
+            items: [{
+                name:'c'
+            }]
         }
     }
 
     static getDerivedStateFromProps(props, state) {
+        if (props.users) {
+            console.log('Props >>> STATE',props ,state)
+            state.items = props.users
+        }
         return state;
     }
 
@@ -131,7 +57,7 @@ class Ranking extends Component {
     }
 
     didFocusFunctions() {
-        console.log('[INIT COURSES]');
+        this.props.getUsers()
     }
 
     render() {
@@ -171,32 +97,47 @@ class Ranking extends Component {
                     }}
                 >
                     {
-                        this.state.items.map((item, i) => (
+                        (this.props.loading) ? (
                             <View
-
-                                key={`PersonListItem-${i}`}
                                 style={{
-                                    marginVertical: 8,
-                                    marginHorizontal: 20
+                                    justifyContent: 'center',
+                                    alignItems: 'center'
                                 }}
                             >
-                                <PersonListItem
-                                    {...item}
-                                    rankingSize={(i === 0) ? 24 : 17}
-                                />
-                                <View
-                                    style={{
-                                        marginTop:16,
-                                        height: 0.6,
-                                        backgroundColor: '#efefef',
-                                    }}
-                                >
-
-
-                                </View>
+                                <ActivityIndicator size='large' color='#000' />
                             </View>
+                        ) : (
 
-                        ))
+                                this.state.items.map((item, i) => (
+                                    <View
+
+                                        key={`PersonListItem-${i}`}
+                                        style={{
+                                            marginVertical: 8,
+                                            marginHorizontal: 20
+                                        }}
+                                    >
+                                        <PersonListItem
+                                            name={item.name}
+                                            pontuation={item.current_score}
+                                            image={item.profile_picture}
+                                            ranking={i + 1}
+                                            rankingSize={(i === 0) ? 24 : 17}
+                                        />
+                                        <View
+                                            style={{
+                                                marginTop: 16,
+                                                height: 0.6,
+                                                backgroundColor: '#efefef',
+                                            }}
+                                        >
+
+
+                                        </View>
+                                    </View>
+
+                                ))
+                            )
                     }
                 </ScrollView>
 
@@ -208,13 +149,14 @@ class Ranking extends Component {
 
 const mapStateToProps = state => {
     return {
-
+        users: state.user.usersSortedByScore,
+        loading: state.user.loading
     }
 }
 
 const mapDispatchToProps = dispatch => ({
-    sculture() {
-        dispatch({ type: 'COURSES_GET_ALL_TRIGGER' })
+    getUsers() {
+        dispatch({ type: 'GET_USERS_TRIGGER' })
     },
 })
 
