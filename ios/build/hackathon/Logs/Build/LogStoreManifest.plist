@@ -5,6 +5,39 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>A58BFCC5-7C03-481B-8B13-99E3B508A0DB</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A58BFCC5-7C03-481B-8B13-99E3B508A0DB.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>hackathon project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>hackathon</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace hackathon with scheme hackathon and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>579945079.72896898</real>
+			<key>timeStoppedRecording</key>
+			<real>579945090.45418406</real>
+			<key>title</key>
+			<string>Building workspace hackathon with scheme hackathon and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>A58BFCC5-7C03-481B-8B13-99E3B508A0DB</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

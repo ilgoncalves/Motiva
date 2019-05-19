@@ -5,11 +5,12 @@ import firebase from 'react-native-firebase'
 import { firebaseGet, firebaseAdd, firebaseEdit, firebaseDelete, firebaseGetById, firebaseGetPhotoByPath, firebaseSetPhoto } from '@services/FirebaseServices'
 
 
-function* login({ payload }) {
-    // yield put({
-    //     type: 'USER_SET_LOADING',
-    //     payload: true
-    // })
+// function* login({ payload }) {
+//     // yield put({
+//     //     type: 'USER_SET_LOADING',
+//     //     payload: true
+//     // })
+
 
     try {
         const auth = yield firebase.auth()
@@ -23,34 +24,49 @@ function* login({ payload }) {
             //     payload: false
             // });
 
-            // Get user info
-            // yield put({
-            //     type: 'USER_GET_USER_INFO_TRIGGER',
-            //     payload: {
-            //         id: auth.user.uid
-            //     }
-            // });
+//     try {
+//         const auth = yield firebase.auth()
+//             .signInWithEmailAndPassword('lima-igor@hotmail.com', '123123');
 
-            // yield put(NavigationActions.navigate({
-            //     index: 0,
-            //     routeName: 'Main'
-            // }))
-        }
-    } catch ({ message, error }) {
-        // yield put({
-        //     type: 'USER_SET_LOADING',
-        //     payload: false
-        // });
-        console.warn('[USERS_LOGIN_TRIGGER ERROR]', { message, error })
 
-    }
-}
+//         if (auth) {
+//             console.log('[USERS_LOGIN_TRIGGER RESPONSE]', auth)
 
-function* alo({payload}) {
+//             // yield put({
+//             //     type: 'USER_SET_LOADING',
+//             //     payload: false
+//             // });
 
-    console.log('PAYLOAD ON SAGA >>> ',payload.password, payload.email);
+//             // Get user info
+//             // yield put({
+//             //     type: 'USER_GET_USER_INFO_TRIGGER',
+//             //     payload: {
+//             //         id: auth.user.uid
+//             //     }
+//             // });
 
+//             // yield put(NavigationActions.navigate({
+//             //     index: 0,
+//             //     routeName: 'Main'
+//             // }))
+//         }
+//     } catch ({ message, error }) {
+//         // yield put({
+//         //     type: 'USER_SET_LOADING',
+//         //     payload: false
+//         // });
+//         console.warn('[USERS_LOGIN_TRIGGER ERROR]', { message, error })
+
+//     }
+// }
+
+function* getUsers() {
     try {
+        yield put({
+            type:'USER_SET_LOADING',
+            payload:true
+        })
+        
         let firePayload = {
             collection: 'users',
             where: [
@@ -59,14 +75,34 @@ function* alo({payload}) {
         }
 
         let response = yield firebaseGet(firePayload)
-        console.log('[USERS_SAGA RESPONSE]', response)
+        console.log('[GET_USERS_TRIGGER RESPONSE]', response)
+
+        if (response) {
+            let aux = yield [].concat(response)
+            yield aux.sort((a, b) => {
+                return b.current_score - a.current_score
+            })
+            console.log(aux)
+            yield put({
+                type:'USER_SET_USERS_SORTED',
+                payload:aux
+            })
+            yield put({
+                type:'USER_SET_LOADING',
+                payload:false
+            })
+
+        }
 
     } catch ({ message, error }) {
+        yield put({
+            type:'USER_SET_LOADING',
+            payload:false
+        })
         console.warn('[USERS_SAGA ERROR]', { message, error })
     }
 }
 
 export default function* rootUser() {
-    yield takeEvery('TEST_TRIGGER', alo)
-    yield takeEvery('USERS_LOGIN_TRIGGER', login)
+    yield takeEvery('GET_USERS_TRIGGER', getUsers)
 }

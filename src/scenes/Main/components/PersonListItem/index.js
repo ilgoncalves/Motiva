@@ -74,7 +74,7 @@ PersonListItem = ({ name, pontuation, ranking, image, ...props }) => {
                         color: 'rgba(0,0,0,0.5)'
                     }}
                 >
-                    {pontuation}
+                    {`${pontuation} pontos`}
 
                 </Text>
 
