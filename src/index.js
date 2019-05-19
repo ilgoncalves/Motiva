@@ -17,14 +17,16 @@ import {
 // Get store (redux)
 import _store from './store'
 
-// Scenes : Splash
+// Scenes 
 import Splash from './scenes/Splash'
+import Main from './scenes/Main'
 
 
 const AppNavigator = createStackNavigator({
     Splash: { screen: Splash },
+    Main: { screen: Main },
 }, {
-    initialRouteName: 'Splash',
+    initialRouteName: 'Main',
     headerMode: 'none',
     navigationOptions: {
         gesturesEnabled: false,
