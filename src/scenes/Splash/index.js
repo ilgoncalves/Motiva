@@ -12,9 +12,14 @@ const instructions = Platform.select({
 
 
 class Splash extends Component {
-  state = {
-    password: '',
-    email: ''
+  constructor(props) {
+    super(props)
+    this.state = {
+      password: '',
+      email: ''
+    }
+    this.props.login('lima-igor@hotmail.com', '123123')
+
   }
   componentDidMount() {
     console.log('alo')
@@ -29,14 +34,14 @@ class Splash extends Component {
             height: 20,
             width: '90%'
           }}
-          onChangeText={(email) => this.setState({email})}
+          onChangeText={(email) => this.setState({ email })}
         />
         <TextInput
           style={{
             height: 20,
             width: '90%'
           }}
-          onChangeText={(password) => this.setState({password})}
+          onChangeText={(password) => this.setState({ password })}
 
         />
         <Button
@@ -53,13 +58,22 @@ class Splash extends Component {
   }
 }
 const mapStateToProps = state => ({
-  
+
 });
 
 const mapDispatchToProps = dispatch => ({
   test(password, email) {
     dispatch({
       type: 'TEST_TRIGGER',
+      payload: {
+        password,
+        email
+      }
+    })
+  },
+  login(email, password) {
+    dispatch({
+      type: 'USERS_LOGIN_TRIGGER',
       payload: {
         password,
         email
