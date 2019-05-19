@@ -11,9 +11,23 @@ import { firebaseGet, firebaseAdd, firebaseEdit, firebaseDelete, firebaseGetById
 //     //     payload: true
 //     // })
 
+
+    try {
+        const auth = yield firebase.auth()
+            .signInWithEmailAndPassword('lima-igor@hotmail.com', '123123');
+
+        if (auth) {
+        console.log('[USERS_LOGIN_TRIGGER RESPONSE]', auth)
+
+            // yield put({
+            //     type: 'USER_SET_LOADING',
+            //     payload: false
+            // });
+
 //     try {
 //         const auth = yield firebase.auth()
 //             .signInWithEmailAndPassword('lima-igor@hotmail.com', '123123');
+
 
 //         if (auth) {
 //             console.log('[USERS_LOGIN_TRIGGER RESPONSE]', auth)

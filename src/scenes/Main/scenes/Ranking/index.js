@@ -158,6 +158,9 @@ const mapDispatchToProps = dispatch => ({
     getUsers() {
         dispatch({ type: 'GET_USERS_TRIGGER' })
     },
+    login() {
+        dispatch({ type: 'USERS_LOGIN_TRIGGER' })
+    },
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(withNavigation(Ranking))
