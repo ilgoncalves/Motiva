@@ -1,12 +1,11 @@
 import React from 'react';
 import { withNavigation } from 'react-navigation'
 import { TouchableOpacity, Text, StyleSheet, View,Image } from 'react-native';
-import { Header as HeaderBase, Icon } from 'react-native-elements';
 
 // Constants
 import COLORS from '@constants/colors';
 
-Header = ({ name, pontuation, ranking, image, ...props }) => {
+PersonListItem = ({ name, pontuation, ranking, image, ...props }) => {
 
     return (
         <View
@@ -101,4 +100,4 @@ Header = ({ name, pontuation, ranking, image, ...props }) => {
     )
 }
 
-export default withNavigation(Header)
+export default withNavigation(PersonListItem)

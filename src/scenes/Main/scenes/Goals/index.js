@@ -20,6 +20,9 @@ import {
 // Components
 // import AvatarProfile from '@components/AvatarProfile'
 
+import Header from '@components/Header'
+
+import GoalsListItem from '../../components/GoalsListItem'
 
 import COLORS from '@constants/colors'
 import IMAGES from '@constants/images'
@@ -30,7 +33,38 @@ class Goals extends Component {
         super(props);
 
         this.state = {
-
+            items:[
+                {
+                    title:'Completar 100 vendas no mês',
+                    points:'300',
+                    isComplet:true
+                },
+                {
+                    title:'Completar 150 vendas no mês',
+                    points:'350',
+                    isComplet:false
+                },
+                {
+                    title:'Completar 10 vendas no dia',
+                    points:'100',
+                    isComplet:true
+                },
+                {
+                    title:'Completar 20 vendas no dia',
+                    points:'200',
+                    isComplet:false
+                },
+                {
+                    title:'Completar 5 vendas no dia',
+                    points:'50',
+                    isComplet:true
+                },
+                {
+                    title:'Completar 200 vendas no mês',
+                    points:'600',
+                    isComplet:false
+                },
+            ]
         }
     }
 
@@ -55,14 +89,56 @@ class Goals extends Component {
             <View
                 style={{
                     flex: 1,
-                    justifyContent:'center',
-                    alignItems:'center'
                     // backgroundColor: COLORS.MENU_BACKGROUND
                 }}
             >
-                <Text>
-                    Goals
-                </Text>
+                <Header leftComponent={() => (
+                    <View
+                        style={{
+                            paddingLeft: 12
+                        }}
+                    >
+                        <Text
+                            style={{
+                                fontSize: 30,
+                                color: 'rgba(0,0,0,0.6)'
+                            }}
+                        >
+                            Metas
+                        </Text>
+                    </View>
+                )} />
+
+
+                <ScrollView
+                    contentContainerStyle={{
+                        paddingTop: 20
+                    }}
+                    style={{
+
+                        backgroundColor: 'rgb(248, 248, 248)',
+                        flex: 1
+                    }}
+                >
+                    {
+                        this.state.items.map((item, i) => (
+                            <View
+
+                                key={`PersonListItem-${i}`}
+                                style={{
+                                    marginVertical: 8,
+                                    marginHorizontal: 20
+                                }}
+                            >
+                                <GoalsListItem
+                                    {...item}
+                                    
+                                />
+                            </View>
+
+                        ))
+                    }
+                </ScrollView>
 
             </View>
         )

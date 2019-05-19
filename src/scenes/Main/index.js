@@ -37,8 +37,8 @@ export default createBottomTabNavigator(
             })
         },
 
-        Awards: {
-            screen: Awards,
+        Employers: {
+            screen: Employers,
             navigationOptions: ({ navigation }) => ({
                 tabBarIcon: ({ focused, tintColor }) => (
                     <Icon
@@ -51,8 +51,8 @@ export default createBottomTabNavigator(
             })
         },
 
-        Goals: {
-            screen: Goals,
+        Awards: {
+            screen: Awards,
             navigationOptions: ({ navigation }) => ({
                 tabBarIcon: ({ focused, tintColor }) => (
                     <Icon
@@ -65,8 +65,8 @@ export default createBottomTabNavigator(
             })
         },
 
-        Employers: {
-            screen: Employers,
+        Goals: {
+            screen: Goals,
             navigationOptions: ({ navigation }) => ({
                 tabBarIcon: ({ focused, tintColor }) => (
                     <Icon
