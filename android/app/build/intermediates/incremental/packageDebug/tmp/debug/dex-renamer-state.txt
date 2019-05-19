@@ -1,0 +1,4 @@
+#Sat May 18 23:24:50 BRT 2019
+base.0=/home/arisu/development/projects/HackathonFeira/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
