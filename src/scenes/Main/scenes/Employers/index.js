@@ -17,7 +17,7 @@ import {
     ListItem
 } from 'react-native-elements'
 
-import AwardCardItem from '../../components/EmployersListItem'
+import SeasonListItem from '../../components/SeasonListItem'
 
 // Components
 // import AvatarProfile from '@components/AvatarProfile'
@@ -32,24 +32,15 @@ class Employers extends Component {
         super(props);
 
         this.state = {
-            items: [
-                {
-                    title: 'Viagem para João Pessoa',
-                    points:'3000',
-                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg',
-                    color: [198, 149, 181, 1.0]
-                },
-                {
-                    title: 'Viagem para João Pessoa',
-                    points:'3000',
-                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg',
-                    color: [8, 155, 154, 1.0]
-                }
-            ]
+            items: []
         }
     }
 
     static getDerivedStateFromProps(props, state) {
+        console.log('[state season]', props)
+        if (props.seasons) {
+            state.items = props.seasons
+        }
         return state;
     }
 
@@ -62,7 +53,7 @@ class Employers extends Component {
     }
 
     didFocusFunctions() {
-        console.log('[INIT COURSES]');
+        this.props.getSeasons()
     }
 
     render() {
@@ -85,7 +76,7 @@ class Employers extends Component {
                                 color: 'rgba(0,0,0,0.6)'
                             }}
                         >
-                            Prêmios
+                            Eventos
                         </Text>
                     </View>
                 )} />
@@ -93,31 +84,45 @@ class Employers extends Component {
 
                 <ScrollView
                     contentContainerStyle={{
-                        paddingTop: 20
+                        paddingTop: 20,
+                        flex: (this.props.seasonLoading) ? 1 : 0
                     }}
                     style={{
+
                         backgroundColor: 'rgb(248, 248, 248)',
                         flex: 1
                     }}
                 >
                     {
-                        this.state.items.map((item, i) => (
+                        (this.props.seasonLoading) ? (
                             <View
-
-                                key={`PersonListItem-${i}`}
                                 style={{
-                                    marginVertical: 8,
-                                    marginHorizontal: 20
+                                    flex: 1,
+                                    justifyContent: 'center',
+                                    alignItems: 'center'
                                 }}
                             >
-                                <EmployersListItem
-                                    {...item}
-                                    
-                                />
-                                
+                                <ActivityIndicator size='large' color='#000' />
                             </View>
+                        ) : (
 
-                        ))
+                                this.state.items.map((item, i) => (
+                                    <View
+
+                                        key={`PersonListItem-${i}`}
+                                        style={{
+                                            marginVertical: 8,
+                                            marginHorizontal: 20
+                                        }}
+                                    >
+                                        <SeasonListItem
+                                            {...item}
+
+                                        />
+                                    </View>
+
+                                ))
+                            )
                     }
                 </ScrollView>
 
@@ -129,13 +134,14 @@ class Employers extends Component {
 
 const mapStateToProps = state => {
     return {
-
+        seasons: state.user.seasons,
+        seasonLoading: state.user.seasonLoading
     }
 }
 
 const mapDispatchToProps = dispatch => ({
-    sculture() {
-        dispatch({ type: 'COURSES_GET_ALL_TRIGGER' })
+    getSeasons() {
+        dispatch({ type: 'GET_SEASON_TRIGGER' })
     },
 })
 

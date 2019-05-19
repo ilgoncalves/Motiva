@@ -35,14 +35,14 @@ class Ranking extends Component {
 
         this.state = {
             items: [{
-                name:'c'
+                name: 'c'
             }]
         }
     }
 
     static getDerivedStateFromProps(props, state) {
         if (props.users) {
-            console.log('Props >>> STATE',props ,state)
+            console.log('Props >>> STATE', props, state)
             state.items = props.users
         }
         return state;
@@ -88,7 +88,8 @@ class Ranking extends Component {
 
                 <ScrollView
                     contentContainerStyle={{
-                        paddingTop: 20
+                        paddingTop: 20,
+                        flex: (this.props.loading) ? 1 : 0
                     }}
                     style={{
 
@@ -100,6 +101,7 @@ class Ranking extends Component {
                         (this.props.loading) ? (
                             <View
                                 style={{
+                                    flex: 1,
                                     justifyContent: 'center',
                                     alignItems: 'center'
                                 }}

@@ -15,30 +15,43 @@ AwardCardItem = ({ title, points, image, color, ...props }) => {
                 flex: 1,
                 paddingHorizontal: 12,
                 paddingVertical: 15,
-                backgroundColor: `rgba(${color[0]},${color[1]},${color[2]},${color[3]})`,
-                flexDirection: 'row',
+                backgroundColor: `#fff`,
+                flexDirection: 'column',
                 justifyContent: 'space-evenly',
-                paddingLeft: 42
+                shadowColor: '#455B63',
+                shadowRadius: 5,
+                shadowOpacity: 0.2,
+                shadowOffset: { width: 0, height: 2 },
+                elevation: 2,
+                // paddingLeft: 42
             }}
         >
 
             <View
                 style={{
-                    flex:1,
+                    flex: 1,
                     alignItems: 'center',
                     justifyContent: 'center',
                     paddingRight: 16,
+                    marginBottom: 8
                 }}
             >
                 {
                     (image) ? (
                         <Image
+
+                            
+                            resizeMode='center'
+                            
                             style={{
-                                borderColor:'#000',
-                                borderWidth:0.1,
-                                height: 80,
-                                width: 80,
-                                borderRadius: 40
+                                borderColor: '#000',
+                                borderWidth: 0.1,
+                                height: 200,
+                                // overflow:'visible',
+
+                                flex:1,
+                                width: '80%',
+                                // borderRadius: 40
                             }}
                             source={{ uri: image }}
 
@@ -57,7 +70,7 @@ AwardCardItem = ({ title, points, image, color, ...props }) => {
                 }
             </View>
 
-            
+
             <View
                 style={{
                     flex: 8,

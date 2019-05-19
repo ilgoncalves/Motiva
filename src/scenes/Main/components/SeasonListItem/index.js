@@ -6,7 +6,7 @@ import { Header as HeaderBase, Icon } from 'react-native-elements';
 // Constants
 import COLORS from '@constants/colors';
 
-GoalsListItem = ({ name, score, complete, ...props }) => {
+SeasonListItem = ({ name, winner_prize, winner, days_left, elapsed_time, ...props }) => {
 
     return (
         <View
@@ -15,7 +15,7 @@ GoalsListItem = ({ name, score, complete, ...props }) => {
                 flex: 1,
                 paddingHorizontal: 12,
                 paddingVertical: 20,
-                backgroundColor: '#fff',
+                backgroundColor: props.color,
                 justifyContent: 'space-evenly',
                 shadowColor: '#455B63',
                 shadowRadius: 5,
@@ -35,14 +35,15 @@ GoalsListItem = ({ name, score, complete, ...props }) => {
                     style={{
                         flex: 8,
                         justifyContent: 'center',
-                        paddingLeft: 16
+
                     }}
                 >
                     <Text
                         style={{
-                            paddingBottom: 8,
+                            paddingBottom: 12,
                             fontSize: 17,
-                            fontWeight: '400'
+                            fontWeight: '400',
+                            color: 'rgba(255,255,255,1)'
                         }}
                     >
                         {name}
@@ -52,10 +53,20 @@ GoalsListItem = ({ name, score, complete, ...props }) => {
                         style={{
                             fontSize: 14,
                             fontWeight: '400',
-                            color: 'rgba(0,0,0,0.5)'
+                            color: 'rgba(255,255,255,0.9)'
                         }}
                     >
-                        {`${score} pontos`}
+                        {`Primeiro Lugar:`}
+
+                    </Text>
+                    <Text
+                        style={{
+                            fontSize: 13,
+                            fontWeight: '300',
+                            color: 'rgba(255,255,255,0.7)'
+                        }}
+                    >
+                        {`${winner}. ${winner_prize} pts`}
 
                     </Text>
 
@@ -69,19 +80,42 @@ GoalsListItem = ({ name, score, complete, ...props }) => {
                         alignItems: 'flex-end'
                     }}
                 >
-                    {
-                        (complete) && (
-                            <Icon
-                                type='font-awesome'
-                                name='check'
-                                size={20}
-                                color='green'
-                            />
-
-                        )
-                    }
 
                 </View>
+            </View>
+
+            <View
+                style={{
+                    height: 20,
+                    flexDirection: 'row',
+                    alignItems: 'center'
+                }}
+            >
+                <Slider
+                    minimumValue={0}
+                    maximumValue={100}
+                    value={elapsed_time}
+                    disabled={true}
+                    thumbTintColor='rgba(0,0,0,0)'
+                    minimumTrackTintColor='green'
+                    style={{
+                        paddingTop: 12,
+                        width: '70%'
+                    }}
+                />
+                <Text
+                    style={{
+                        paddingBottom: 4,
+                        paddingLeft: 16,
+                        fontSize: 14,
+                        fontWeight: '400',
+                        color: 'rgba(255,255,255,0.7)'
+                    }}
+
+                >
+                    {`${days_left} dias rest.`}
+                </Text>
+
             </View>
 
 
@@ -89,4 +123,4 @@ GoalsListItem = ({ name, score, complete, ...props }) => {
     )
 }
 
-export default withNavigation(GoalsListItem)
+export default withNavigation(SeasonListItem)

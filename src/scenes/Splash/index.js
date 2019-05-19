@@ -1,103 +1,88 @@
-import React, { Component } from 'react';
-import { Platform, StyleSheet, Text, View, TextInput } from 'react-native';
+import React, { Component } from 'react'
+import { withNavigation } from 'react-navigation'
+import { connect } from 'react-redux';
+import {
+  View,
+  Image,
+  StatusBar,
+  ImageBackground,
+  Dimensions
+} from 'react-native'
 
-import { Button } from 'react-native-elements'
-import { connect } from 'react-redux'
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
-  android:
-    'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
-});
-
+import firebase from 'react-native-firebase';
+// Constants
+import IMAGES from '@constants/images';
 
 class Splash extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      password: '',
-      email: ''
-    }
-    this.props.login('lima-igor@hotmail.com', '123123')
-
-  }
   componentDidMount() {
-    console.log('alo')
-    this.props.test();
+    this._onAuthChange()
+  }
+
+  componentWillUnmount() {
+    // Kill listener
+    if (this.unsubscriber)
+      this.unsubscriber();
+  }
+
+  _redirectTo = (scene) => {
+    this.props.navigation.replace(scene);
+  }
+
+  _onAuthChange = () => {
+    
+      setTimeout(() => this._redirectTo('Main'), 1500);
+    
   }
 
   render() {
     return (
-      <View style={styles.container}>
-        <TextInput
-          style={{
-            height: 20,
-            width: '90%'
-          }}
-          onChangeText={(email) => this.setState({ email })}
-        />
-        <TextInput
-          style={{
-            height: 20,
-            width: '90%'
-          }}
-          onChangeText={(password) => this.setState({ password })}
+      <View
+        style={{
+          flex: 1,
+          backgroundColor: 'rgba(33,116,169,0.7)',
+          justifyContent: 'center',
+          alignItems: 'center'
+        }}>
 
+        <StatusBar
+          translucent={true}
+          backgroundColor='transparent'
+          barStyle='light-content'
         />
-        <Button
-          title='clique em mim'
-          style={{
-            height: 20,
-            width: '90%'
-          }}
-          onPress={() => this.props.test(this.state.password, this.state.email)}
 
-        />
+        <View style={{
+
+        }}>
+
+          <Image
+            source={IMAGES.LOGO}
+            resizeMethod='auto'
+            resizeMode='center'
+            style={{
+              width: 200,
+              height: 180,
+            }}
+          />
+        </View>
+
       </View>
-    );
+    )
   }
 }
-const mapStateToProps = state => ({
 
-});
+const mapStateToProps = state => {
+  return {
+    user: state.user.data
+  }
+}
 
 const mapDispatchToProps = dispatch => ({
-  test(password, email) {
+  getUserInfo(id) {
     dispatch({
-      type: 'TEST_TRIGGER',
-      payload: {
-        password,
-        email
-      }
-    })
-  },
-  login(email, password) {
-    dispatch({
-      type: 'USERS_LOGIN_TRIGGER',
-      payload: {
-        password,
-        email
-      }
+      type: 'USER_GET_USER_INFO_TRIGGER',
+      payload: { id }
     })
   },
 })
-export default connect(mapStateToProps, mapDispatchToProps)(Splash)
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
-});
+export default connect(mapStateToProps, mapDispatchToProps)(withNavigation(Splash))

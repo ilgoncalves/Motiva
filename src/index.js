@@ -26,7 +26,7 @@ const AppNavigator = createStackNavigator({
     Splash: { screen: Splash },
     Main: { screen: Main },
 }, {
-    initialRouteName: 'Main',
+    initialRouteName: 'Splash',
     headerMode: 'none',
     navigationOptions: {
         gesturesEnabled: false,

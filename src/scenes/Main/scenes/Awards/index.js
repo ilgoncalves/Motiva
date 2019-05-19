@@ -33,24 +33,14 @@ class Awards extends Component {
         super(props);
 
         this.state = {
-            items: [
-                {
-                    title: 'Viagem para João Pessoa',
-                    points:'3000',
-                    image: 'https://s3.portalt5.com.br/imagens/joao-pessoa-hotel-tambau.jpg?mtime=20180206172507',
-                    color: [198, 149, 181, 1.0]
-                },
-                {
-                    title: 'Viagem para João Pessoa',
-                    points:'3000',
-                    image: 'https://s3.portalt5.com.br/imagens/joao-pessoa-hotel-tambau.jpg?mtime=20180206172507',
-                    color: [8, 155, 154, 1.0]
-                }
-            ]
+            items: []
         }
     }
 
     static getDerivedStateFromProps(props, state) {
+        if(props.awards){
+            state.items= props.awards
+        }
         return state;
     }
 
@@ -63,7 +53,7 @@ class Awards extends Component {
     }
 
     didFocusFunctions() {
-        console.log('[INIT COURSES]');
+        this.props.getAwards()
     }
 
     render() {
@@ -94,7 +84,8 @@ class Awards extends Component {
 
                 <ScrollView
                     contentContainerStyle={{
-                        paddingTop: 20
+                        paddingTop: 20,
+                        flex: (this.props.awardsLoading) ? 1 : 0
                     }}
                     style={{
                         backgroundColor: 'rgb(248, 248, 248)',
@@ -102,33 +93,39 @@ class Awards extends Component {
                     }}
                 >
 
-                    <ButtonPrimary
-                        style={{
-                            flex: 1,
-                            width: 120,
-                            height: 40,
-                            backgroundColor: 'rgba(0, 0, 0, 1)'
-                        }}
-                    ></ButtonPrimary>
-
                     {
-                        this.state.items.map((item, i) => (
+                        (this.props.awardsLoading) ? (
                             <View
-
-                                key={`PersonListItem-${i}`}
                                 style={{
-                                    marginVertical: 8,
-                                    marginHorizontal: 20
+                                    flex: 1,
+                                    justifyContent: 'center',
+                                    alignItems: 'center'
                                 }}
                             >
-                                <AwardCardItem
-                                    {...item}
-                                    
-                                />
-                                
+                                <ActivityIndicator size='large' color='#000' />
                             </View>
+                        ) : (
+                                this.state.items.map((item, i) => (
+                                    <View
 
-                        ))
+                                        key={`Award-${i}`}
+                                        style={{
+                                            marginVertical: 8,
+                                            marginHorizontal: 20
+                                        }}
+                                    >
+                                        <AwardCardItem
+                                            title={item.name}
+                                            image={item.image}
+                                            points={item.required_score}
+
+
+                                        />
+
+                                    </View>
+
+                                ))
+                            )
                     }
                 </ScrollView>
 
@@ -140,13 +137,14 @@ class Awards extends Component {
 
 const mapStateToProps = state => {
     return {
-
+        awards: state.user.awards,
+        awardsLoading: state.user.awardsLoading
     }
 }
 
 const mapDispatchToProps = dispatch => ({
-    sculture() {
-        dispatch({ type: 'COURSES_GET_ALL_TRIGGER' })
+    getAwards() {
+        dispatch({ type: 'GET_AWARDS_TRIGGER' })
     },
 })
 

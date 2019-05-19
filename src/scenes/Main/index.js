@@ -43,7 +43,7 @@ export default createBottomTabNavigator(
                 tabBarIcon: ({ focused, tintColor }) => (
                     <Icon
                         type='material-community'
-                        name='account-group'
+                        name='trophy'
                         size={25}
                         color={tintColor}
                     />

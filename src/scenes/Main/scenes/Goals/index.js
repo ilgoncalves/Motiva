@@ -33,42 +33,14 @@ class Goals extends Component {
         super(props);
 
         this.state = {
-            items:[
-                {
-                    title:'Completar 100 vendas no mês',
-                    points:'300',
-                    isComplet:true
-                },
-                {
-                    title:'Completar 150 vendas no mês',
-                    points:'350',
-                    isComplet:false
-                },
-                {
-                    title:'Completar 10 vendas no dia',
-                    points:'100',
-                    isComplet:true
-                },
-                {
-                    title:'Completar 20 vendas no dia',
-                    points:'200',
-                    isComplet:false
-                },
-                {
-                    title:'Completar 5 vendas no dia',
-                    points:'50',
-                    isComplet:true
-                },
-                {
-                    title:'Completar 200 vendas no mês',
-                    points:'600',
-                    isComplet:false
-                },
-            ]
+            items: []
         }
     }
 
     static getDerivedStateFromProps(props, state) {
+        if (props.goals) {
+            state.items = props.goals
+        }
         return state;
     }
 
@@ -81,7 +53,7 @@ class Goals extends Component {
     }
 
     didFocusFunctions() {
-        console.log('[INIT COURSES]');
+        this.props.getGoals()
     }
 
     render() {
@@ -112,31 +84,45 @@ class Goals extends Component {
 
                 <ScrollView
                     contentContainerStyle={{
-                        paddingTop: 20
+                        paddingTop: 20,
+                        justifyContent: 'center',
+                        flex: (this.props.goalsLoading) ? 1 : 0
                     }}
                     style={{
-
                         backgroundColor: 'rgb(248, 248, 248)',
                         flex: 1
                     }}
                 >
                     {
-                        this.state.items.map((item, i) => (
+                        (this.props.goalsLoading) ? (
                             <View
-
-                                key={`PersonListItem-${i}`}
                                 style={{
-                                    marginVertical: 8,
-                                    marginHorizontal: 20
+                                    flex: 1,
+                                    justifyContent: 'center',
+                                    alignItems: 'center'
                                 }}
                             >
-                                <GoalsListItem
-                                    {...item}
-                                    
-                                />
+                                <ActivityIndicator size='large' color='#000' />
                             </View>
+                        ) : (
 
-                        ))
+                                this.state.items.map((item, i) => (
+                                    <View
+
+                                        key={`PersonListItem-${i}`}
+                                        style={{
+                                            marginVertical: 8,
+                                            marginHorizontal: 20
+                                        }}
+                                    >
+                                        <GoalsListItem
+                                            {...item}
+
+                                        />
+                                    </View>
+
+                                ))
+                            )
                     }
                 </ScrollView>
 
@@ -148,13 +134,14 @@ class Goals extends Component {
 
 const mapStateToProps = state => {
     return {
-
+        goals: state.user.goals,
+        goalsLoading: state.user.goalsLoading
     }
 }
 
 const mapDispatchToProps = dispatch => ({
-    sculture() {
-        dispatch({ type: 'COURSES_GET_ALL_TRIGGER' })
+    getGoals() {
+        dispatch({ type: 'GET_GOALS_TRIGGER' })
     },
 })
 
