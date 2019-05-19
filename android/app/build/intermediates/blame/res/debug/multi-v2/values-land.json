@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/arisu/development/projects/HackathonFeira/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/home/arisu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/033ffe5e397b28e9d408235d25f3c262/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                }
+            ]
+        }
+    ]
+}
