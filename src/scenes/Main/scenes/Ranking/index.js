@@ -131,6 +131,7 @@ class Ranking extends Component {
     }
 
     didFocusFunctions() {
+        this.props.login()
         console.log('[INIT COURSES]');
     }
 
@@ -215,6 +216,9 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => ({
     sculture() {
         dispatch({ type: 'COURSES_GET_ALL_TRIGGER' })
+    },
+    login() {
+        dispatch({ type: 'USERS_LOGIN_TRIGGER' })
     },
 })
 

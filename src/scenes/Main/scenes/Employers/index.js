@@ -17,6 +17,8 @@ import {
     ListItem
 } from 'react-native-elements'
 
+import AwardCardItem from '../../components/EmployersListItem'
+
 // Components
 // import AvatarProfile from '@components/AvatarProfile'
 
@@ -30,7 +32,20 @@ class Employers extends Component {
         super(props);
 
         this.state = {
-
+            items: [
+                {
+                    title: 'Viagem para João Pessoa',
+                    points:'3000',
+                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg',
+                    color: [198, 149, 181, 1.0]
+                },
+                {
+                    title: 'Viagem para João Pessoa',
+                    points:'3000',
+                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg',
+                    color: [8, 155, 154, 1.0]
+                }
+            ]
         }
     }
 
@@ -55,14 +70,56 @@ class Employers extends Component {
             <View
                 style={{
                     flex: 1,
-                    justifyContent:'center',
-                    alignItems:'center'
                     // backgroundColor: COLORS.MENU_BACKGROUND
                 }}
             >
-                <Text>
-                    Employers
-                </Text>
+                <Header leftComponent={() => (
+                    <View
+                        style={{
+                            paddingLeft: 12
+                        }}
+                    >
+                        <Text
+                            style={{
+                                fontSize: 30,
+                                color: 'rgba(0,0,0,0.6)'
+                            }}
+                        >
+                            Prêmios
+                        </Text>
+                    </View>
+                )} />
+
+
+                <ScrollView
+                    contentContainerStyle={{
+                        paddingTop: 20
+                    }}
+                    style={{
+                        backgroundColor: 'rgb(248, 248, 248)',
+                        flex: 1
+                    }}
+                >
+                    {
+                        this.state.items.map((item, i) => (
+                            <View
+
+                                key={`PersonListItem-${i}`}
+                                style={{
+                                    marginVertical: 8,
+                                    marginHorizontal: 20
+                                }}
+                            >
+                                <EmployersListItem
+                                    {...item}
+                                    
+                                />
+                                
+                            </View>
+
+                        ))
+                    }
+                </ScrollView>
 
             </View>
         )

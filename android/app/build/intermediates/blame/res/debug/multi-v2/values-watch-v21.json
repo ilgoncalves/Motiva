@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/arisu/development/projects/HackathonFeira/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "/Users/victor/Desktop/Hackathon/HackathonFeira/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "/home/arisu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/033ffe5e397b28e9d408235d25f3c262/res/values-watch-v21/values-watch-v21.xml",
+                    "source": "/Users/victor/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/5d8181d0f36c5ba7364257ce22d4179f/res/values-watch-v21/values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

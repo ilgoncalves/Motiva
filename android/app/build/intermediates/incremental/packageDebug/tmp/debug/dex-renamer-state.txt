@@ -1,4 +1,4 @@
-#Sat May 18 23:24:50 BRT 2019
-base.0=/home/arisu/development/projects/HackathonFeira/android/app/build/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
+#Sun May 19 03:11:30 BRT 2019
+base.0=/Users/victor/Desktop/Hackathon/HackathonFeira/android/app/build/intermediates/transforms/dexMerger/debug/0
 renamed.0=classes.dex
+path.0=classes.dex

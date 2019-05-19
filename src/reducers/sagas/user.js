@@ -13,7 +13,7 @@ function* login({ payload }) {
 
     try {
         const auth = yield firebase.auth()
-            .signInWithEmailAndPassword(payload.email, payload.password);
+            .signInWithEmailAndPassword('lima-igor@hotmail.com', '123123');
 
         if (auth) {
         console.log('[USERS_LOGIN_TRIGGER RESPONSE]', auth)

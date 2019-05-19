@@ -17,6 +17,9 @@ import {
     ListItem
 } from 'react-native-elements'
 
+import AwardCardItem from '../../components/AwardCardItem'
+import ButtonPrimary from '../../../../components/ButtonPrimary'
+
 // Components
 // import AvatarProfile from '@components/AvatarProfile'
 
@@ -30,7 +33,20 @@ class Awards extends Component {
         super(props);
 
         this.state = {
-
+            items: [
+                {
+                    title: 'Viagem para João Pessoa',
+                    points:'3000',
+                    image: 'https://s3.portalt5.com.br/imagens/joao-pessoa-hotel-tambau.jpg?mtime=20180206172507',
+                    color: [198, 149, 181, 1.0]
+                },
+                {
+                    title: 'Viagem para João Pessoa',
+                    points:'3000',
+                    image: 'https://s3.portalt5.com.br/imagens/joao-pessoa-hotel-tambau.jpg?mtime=20180206172507',
+                    color: [8, 155, 154, 1.0]
+                }
+            ]
         }
     }
 
@@ -55,14 +71,66 @@ class Awards extends Component {
             <View
                 style={{
                     flex: 1,
-                    justifyContent:'center',
-                    alignItems:'center'
                     // backgroundColor: COLORS.MENU_BACKGROUND
                 }}
             >
-                <Text>
-                    Awards
-                </Text>
+                <Header leftComponent={() => (
+                    <View
+                        style={{
+                            paddingLeft: 12
+                        }}
+                    >
+                        <Text
+                            style={{
+                                fontSize: 30,
+                                color: 'rgba(0,0,0,0.6)'
+                            }}
+                        >
+                            Prêmios
+                        </Text>
+                    </View>
+                )} />
+
+
+                <ScrollView
+                    contentContainerStyle={{
+                        paddingTop: 20
+                    }}
+                    style={{
+                        backgroundColor: 'rgb(248, 248, 248)',
+                        flex: 1
+                    }}
+                >
+
+                    <ButtonPrimary
+                        style={{
+                            flex: 1,
+                            width: 120,
+                            height: 40,
+                            backgroundColor: 'rgba(0, 0, 0, 1)'
+                        }}
+                    ></ButtonPrimary>
+
+                    {
+                        this.state.items.map((item, i) => (
+                            <View
+
+                                key={`PersonListItem-${i}`}
+                                style={{
+                                    marginVertical: 8,
+                                    marginHorizontal: 20
+                                }}
+                            >
+                                <AwardCardItem
+                                    {...item}
+                                    
+                                />
+                                
+                            </View>
+
+                        ))
+                    }
+                </ScrollView>
 
             </View>
         )
