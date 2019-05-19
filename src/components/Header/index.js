@@ -52,14 +52,19 @@ Header = ({ hasNext, hasPrev, backButton, callback, ...props }) => {
         <HeaderBase
             {...props}
             // backgroundColor='#F8F8F8'
+            containerStyle={{
+                borderBottomColor:'rgba(0,0,0,0)',
+                paddingTop:30
+            }}
             backgroundColor='rgb(248, 248, 248)'
             placement='center'
             centerComponent={{
                 text: props.title,
                 style: (props.titleStyle) ? props.titleStyle : styles.title
+
             }}
             leftContainerStyle={{
-                flex: 3
+                flex: 6
                 // paddingLeft: 8
             }}
             centerContainerStyle={{

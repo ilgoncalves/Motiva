@@ -17,7 +17,11 @@ import {
     ListItem
 } from 'react-native-elements'
 
+
 // Components
+import Header from '@components/Header'
+import ViewSeparator from '@components/ViewSeparator'
+import PersonListItem from '../../components/PersonListItem'
 // import AvatarProfile from '@components/AvatarProfile'
 
 
@@ -30,7 +34,87 @@ class Ranking extends Component {
         super(props);
 
         this.state = {
+            items: [
+                {
+                    name: 'Marcos da silva Gonçalves',
+                    pontuation: '2500 pontos',
+                    ranking: '1',
+                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
+                },
+                {
+                    name: 'Marcos da silva Gonçalves',
+                    pontuation: '2500 pontos',
+                    ranking: '1',
+                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
+                },
+                {
+                    name: 'Marcos da silva Gonçalves',
+                    pontuation: '2500 pontos',
+                    ranking: '1',
+                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
+                },
+                {
+                    name: 'Marcos da silva Gonçalves',
+                    pontuation: '2500 pontos',
+                    ranking: '1',
+                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
+                },
+                {
+                    name: 'Marcos da silva Gonçalves',
+                    pontuation: '2500 pontos',
+                    ranking: '1',
+                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
+                },
+                {
+                    name: 'Marcos da silva Gonçalves',
+                    pontuation: '2500 pontos',
+                    ranking: '1',
+                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
+                },
+                {
+                    name: 'Marcos da silva Gonçalves',
+                    pontuation: '2500 pontos',
+                    ranking: '1',
+                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
+                },
+                {
+                    name: 'Marcos da silva Gonçalves',
+                    pontuation: '2500 pontos',
+                    ranking: '1',
+                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
+                },
+                {
+                    name: 'Marcos da silva Gonçalves',
+                    pontuation: '2500 pontos',
+                    ranking: '1',
+                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
+                },
+                {
+                    name: 'Marcos da silva Gonçalves',
+                    pontuation: '2500 pontos',
+                    ranking: '1',
+                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
+                },
+                {
+                    name: 'Marcos da silva Gonçalves',
+                    pontuation: '2500 pontos',
+                    ranking: '1',
+                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
+                },
+                {
+                    name: 'Marcos da silva Gonçalves',
+                    pontuation: '2500 pontos',
+                    ranking: '1',
+                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
+                },
+                {
+                    name: 'Marcos da silva Gonçalves',
+                    pontuation: '2500 pontos',
+                    ranking: '1',
+                    image: 'https://i.pinimg.com/originals/f2/b0/df/f2b0dfd92af85ce8a8fe866751fdd205.jpg'
+                },
 
+            ]
         }
     }
 
@@ -55,14 +139,66 @@ class Ranking extends Component {
             <View
                 style={{
                     flex: 1,
-                    justifyContent:'center',
-                    alignItems:'center'
                     // backgroundColor: COLORS.MENU_BACKGROUND
                 }}
             >
-                <Text>
-                    Ranking
-                </Text>
+                <Header leftComponent={() => (
+                    <View
+                        style={{
+                            paddingLeft: 12
+                        }}
+                    >
+                        <Text
+                            style={{
+                                fontSize: 30,
+                                color: 'rgba(0,0,0,0.6)'
+                            }}
+                        >
+                            Ranking
+                        </Text>
+                    </View>
+                )} />
+
+
+                <ScrollView
+                    contentContainerStyle={{
+                        paddingTop: 20
+                    }}
+                    style={{
+
+                        backgroundColor: 'rgb(248, 248, 248)',
+                        flex: 1
+                    }}
+                >
+                    {
+                        this.state.items.map((item, i) => (
+                            <View
+
+                                key={`PersonListItem-${i}`}
+                                style={{
+                                    marginVertical: 8,
+                                    marginHorizontal: 20
+                                }}
+                            >
+                                <PersonListItem
+                                    {...item}
+                                    rankingSize={(i === 0) ? 24 : 17}
+                                />
+                                <View
+                                    style={{
+                                        marginTop:16,
+                                        height: 0.6,
+                                        backgroundColor: '#efefef',
+                                    }}
+                                >
+
+
+                                </View>
+                            </View>
+
+                        ))
+                    }
+                </ScrollView>
 
             </View>
         )
