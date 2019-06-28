@@ -3,10 +3,10 @@
 
 A motiva é um app desenvolvido durante o hackaton da Sebrae cujo o tema foi **Dores no Varejo**. O objetivo inicial é **gamificar o setor de vendas** de empresas do varejo de modo a estimular os funcionários a melhorarem suas **estratégias de venda**, através de bonificações, prêmios e feedbacks positivos e por meio de um estímulo a competitividade entre os mesmos. 
 
+# Produto
 A ideia é promover uma **ferramenta lúdica de gestão** para os adminstradores e ao mesmo tempo estimular os funcionários à **desenvolverem suas habilidades profissionais** de forma mais motivadora através de um **cenário competitivo** com recompensas.
 
-Acreditamos que nosso produto possa tornar as análises sobre o desempenho dos funcionários mais simples e com base nisso tomar melhores decisões administrativas.
-# Produto
+Acreditamos que nosso produto possa tornar as análises sobre desempenho de funcionários mais simples e com base nisso permitir a tomada de melhores decisões administrativas.
 
 ## Sistema de pontos
 
