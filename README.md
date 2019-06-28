@@ -9,17 +9,16 @@ A ideia é promover uma **ferramenta lúdica de gestão** para os adminstradores
 Acreditamos que nosso produto possa tornar as análises sobre desempenho de funcionários mais simples e com base nisso permitir a tomada de melhores decisões administrativas.
 
 ## Sistema de pontos
-
-> O app permite que um administrador cadastre eventos sazonais, em que os funcionários poderão coletar pontos com base em suas colocações no fim da temporada. 
+O app permite que um administrador cadastre eventos sazonais, em que os funcionários poderão coletar pontos com base em suas colocações no fim da temporada. 
 <p align=center><img src="https://i.imgur.com/o5GgXTX.jpg" width="225" height="400"></p>
 
 ### Metas
-> Os jogadores podem coletar pontos através do cumprimento de metas.  
+Os jogadores podem coletar pontos através do cumprimento de metas.  
 
 <p align=center><img src="https://i.imgur.com/RFxAZRv.jpg"  width="225" height="400"></p>
 
 ### Ranking
-> Os jogadores podem ver suas respectivas colocações à partir do ranking geral.
+Os jogadores podem ver suas respectivas colocações à partir do ranking geral.
 
 <p align=center><img src="https://i.imgur.com/LnbS7i9.jpg" width="225" height="400"></p>
 
