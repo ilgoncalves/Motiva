@@ -30,3 +30,10 @@ As recompensas podem ser cadastradas pelo admistrador, conforme as regras de cad
 Como trabalhos futuros planejamos:
 - Permitir que sejam cadastrados times organizados por setores (ex: vendas, administração, telemarketing)
 - Criar um sistema de conquistas para exibição no perfil de cada usuário, permitindo que à partir do levantamento de suas conquistas, tenha-se ideia da(s) especialidade(s) de cada vendedor e com base nisso permitir que sejam tomadas decisões administrativas.
+
+# Contributors
+<a href="https://github.com/ilgoncalves/Motiva/graphs/contributors">
+  <img src="https://contributors-img.firebaseapp.com/image?repo=ilgoncalves/Motiva" />
+</a>
+
+Made with [contributors-img](https://contributors-img.firebaseapp.com).
