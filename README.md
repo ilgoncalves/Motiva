@@ -32,8 +32,9 @@ Como trabalhos futuros planejamos:
 - Criar um sistema de conquistas para exibição no perfil de cada usuário, permitindo que à partir do levantamento de suas conquistas, tenha-se ideia da(s) especialidade(s) de cada vendedor e com base nisso permitir que sejam tomadas decisões administrativas.
 
 # Contributors
-<a href="https://github.com/ilgoncalves/Motiva/graphs/contributors">
+<p align="center"><a href="https://github.com/ilgoncalves/Motiva/graphs/contributors">
   <img src="https://contributors-img.firebaseapp.com/image?repo=ilgoncalves/Motiva" />
 </a>
+</p>
 
 Made with [contributors-img](https://contributors-img.firebaseapp.com).
