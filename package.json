@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "camelize": "^1.0.0",
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
